@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f2">
+  <title>Sentosa Sans — A type family for Southeast Asian interfaces</title>
+  <meta name="description" content="Meet Sentosa Sans, a compact type family for English, Vietnamese and Thai. Try Regular and Bold, explore local currencies, and download the open-source fonts.">
+  <meta property="og:title" content="Sentosa Sans">
+  <meta property="og:description" content="One family. Three languages. A compact, open-source typeface for Southeast Asian interfaces.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/sentosa-sans/woff2/SentosaSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/sentosa-sans/woff2/SentosaSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+<link rel="canonical" href="https://mlikeason.github.io/sentosa-sans/">
+<meta property="og:url" content="https://mlikeason.github.io/sentosa-sans/">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="#" aria-label="Sentosa Sans home"><span class="brand-dot" aria-hidden="true"></span>Sentosa Sans</a>
+    <nav class="main-nav" aria-label="Main navigation" data-i18n-aria="navigation">
+      <a href="#try" data-i18n="navTry">Try it</a>
+      <a href="#languages" data-i18n="navLanguages">Languages</a>
+      <a href="#download" data-i18n="navDownload">Download</a>
+    </nav>
+    <button class="language-switch" id="ui-language" type="button" aria-label="切换为中文界面" lang="zh-CN">中文 <span aria-hidden="true">↗</span></button>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="eyebrow hero-eyebrow"><span data-i18n="heroEyebrow">A type family with a common rhythm</span><span>Regular / Bold</span></div>
+      <h1 id="hero-title">Sentosa Sans</h1>
+      <div class="hero-bottom">
+        <p class="hero-intro" data-i18n="heroIntro">A little closer.<br>A world of expression.</p>
+        <div class="hero-description">
+          <p data-i18n="heroDescription">Compact proportions, warm geometry and a shared voice for English, Vietnamese and Thai. Made for the words and numbers of everyday interfaces.</p>
+          <a class="text-link" href="#try"><span data-i18n="heroLink">Make yourself at home</span><span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hello-line" aria-label="English, Vietnamese and Thai specimens">
+        <span lang="en">Good things, every day.</span><span lang="vi">Điều tốt đẹp mỗi ngày.</span><span lang="th">สิ่งดี ๆ ในทุกวัน</span>
+      </div>
+    </section>
+    <section class="section wrap" id="try" aria-labelledby="try-title">
+      <div class="section-heading">
+        <div><span class="eyebrow section-index">01 / <span data-i18n="tryLabel">TYPE TESTER</span></span><h2 id="try-title" data-i18n="tryTitle">Put it into words.</h2></div>
+        <p data-i18n="tryIntro">A headline, a product name, a little everyday detail. Try your own words in either of our two weights.</p>
+      </div>
+      <div class="tester-controls">
+        <label class="control" for="sample-language"><span data-i18n="sampleLanguage">Sample language</span><select id="sample-language"><option value="en">English</option><option value="vi">Tiếng Việt</option><option value="th">ภาษาไทย</option></select></label>
+        <label class="control" for="sample-weight"><span data-i18n="weight">Weight</span><select id="sample-weight"><option value="400">Regular</option><option value="700">Bold</option></select></label>
+        <label class="control size-control" for="sample-size"><span><span data-i18n="size">Size</span><output for="sample-size" id="size-value">64 px</output></span><input id="sample-size" type="range" min="14" max="120" step="1" value="64"></label>
+        <button class="reset-button" id="reset-sample" type="button"><span aria-hidden="true">↺</span> <span data-i18n="reset">Reset sample</span></button>
+      </div>
+      <label class="visually-hidden" for="sample-text" data-i18n="sampleTextLabel">Editable type specimen</label>
+      <textarea id="sample-text" lang="en" spellcheck="false" aria-describedby="tester-hint">Good things,&#10;every day.</textarea>
+      <div class="tester-bottom">
+        <p id="tester-hint" data-i18n="testerHint">Click the text to make it yours.</p>
+        <div class="feature-controls"><label><input type="checkbox" id="price-figures"><span data-i18n="priceFigures">Price figures</span></label><label><input type="checkbox" id="tabular-figures"><span data-i18n="tabularFigures">Align numbers</span></label></div>
+      </div>
+      <p class="font-error" id="font-error" role="status" hidden data-i18n="fontError">The font could not be loaded. Please refresh to see Sentosa Sans.</p>
+    </section>
+    <section class="character-section" aria-labelledby="character-title">
+      <div class="wrap">
+        <div class="character-heading"><span class="eyebrow" data-i18n="characterLabel">A CLOSER LOOK</span><h2 id="character-title" data-i18n="characterTitle">Quiet details. Distinct character.</h2></div>
+        <div class="character-grid">
+          <article class="character-cell"><div class="specimen-label"><span>Regular</span><span>400</span></div><p class="big-letters" aria-label="a, g, y">agy</p><p class="character-caption" data-i18n="regularCaption">Single-storey forms. A relaxed, familiar rhythm.</p></article>
+          <article class="character-cell"><div class="specimen-label"><span>Bold</span><span>700</span></div><p class="big-numbers" aria-label="zero, six, nine">069</p><p class="character-caption" data-i18n="boldCaption">Rounded figures. A little presence in every price.</p></article>
+        </div>
+        <div class="alphabet" aria-label="Lowercase letter specimen">abcdefghijklmnopqrstuvwxyz</div>
+      </div>
+    </section>
+    <section class="section wrap language-section" id="languages" aria-labelledby="languages-title">
+      <div class="section-heading">
+        <div><span class="eyebrow section-index">02 / <span data-i18n="languagesLabel">IN GOOD COMPANY</span></span><h2 id="languages-title" data-i18n="languagesTitle">One family.<br>Three languages.</h2></div>
+        <p data-i18n="languagesIntro">English, Vietnamese and Thai share a family, with room for each language to be itself. The Latin character set also supports everyday Malay, Indonesian and Filipino text.</p>
+      </div>
+      <div class="language-grid">
+        <article class="language-specimen" lang="en">
+          <div class="specimen-label"><span>English</span><span>EN</span></div><h3>For the<br>everyday.</h3>
+          <p class="reading-text">Good design is in the little things. A clear direction, a useful detail, a moment that feels familiar. Words bring it all together.</p>
+          <div class="small-specimen"><div class="small-specimen-label">16 px / 14 px</div><h4>Everyday essentials</h4><p>Find something you love. Check the details and choose what works for you.</p><div class="mini-action"><span>View details</span><span aria-hidden="true">↗</span></div></div>
+        </article>
+        <article class="language-specimen" lang="vi">
+          <div class="specimen-label"><span>Tiếng Việt</span><span>VI</span></div><h3>Cho mỗi<br>ngày mới.</h3>
+          <p class="reading-text">Điều tốt đẹp nằm trong những chi tiết nhỏ. Một lựa chọn phù hợp, một thông tin rõ ràng, một trải nghiệm gần gũi mỗi ngày.</p>
+          <div class="small-specimen"><div class="small-specimen-label">16 px / 14 px</div><h4>Đồ dùng thiết yếu</h4><p>Xem thông tin sản phẩm và ngày giao hàng trước khi đặt mua.</p><div class="mini-action"><span>Xem chi tiết</span><span aria-hidden="true">↗</span></div></div>
+        </article>
+        <article class="language-specimen" lang="th">
+          <div class="specimen-label"><span>ภาษาไทย</span><span>TH</span></div><h3>สิ่งดี ๆ<br>ในทุกวัน</h3>
+          <p class="reading-text">สิ่งดี ๆ เริ่มต้นจากรายละเอียดเล็ก ๆ ข้อมูลที่ชัดเจน ตัวเลือกที่เหมาะกับคุณ และประสบการณ์ที่คุ้นเคยในทุกวัน</p>
+          <div class="small-specimen"><div class="small-specimen-label">16 px / 14 px</div><h4>ของใช้ในชีวิตประจำวัน</h4><p>ตรวจสอบรายละเอียดสินค้าและวันที่จัดส่งก่อนสั่งซื้อ</p><div class="mini-action"><span>ดูรายละเอียด</span><span aria-hidden="true">↗</span></div></div>
+        </article>
+      </div>
+    </section>
+    <section class="section wrap price-section" id="numbers" aria-labelledby="numbers-title">
+      <div class="section-heading">
+        <div><span class="eyebrow section-index">03 / <span data-i18n="numbersLabel">LOCAL BY NATURE</span></span><h2 id="numbers-title" data-i18n="numbersTitle">Numbers that<br>feel at home.</h2></div>
+        <p data-i18n="numbersIntro">Currency signs with their own character. Proportional figures for natural spacing, tabular figures when the numbers need to line up.</p>
+      </div>
+      <div class="currency-strip" aria-label="Currency signs and prefixes"><span>$</span><span>S$</span><span>RM</span><span>Rp</span><span>₫</span><span>₱</span><span>฿</span></div>
+      <div class="price-grid" id="price-grid">
+        <article class="market" data-market="SG"><div class="specimen-label"><span data-i18n="singapore">Singapore</span><span>SGD</span></div><p class="market-price" lang="en-SG">$69.90</p></article>
+        <article class="market" data-market="MY"><div class="specimen-label"><span data-i18n="malaysia">Malaysia</span><span>MYR</span></div><p class="market-price" lang="ms-MY">RM 69.90</p></article>
+        <article class="market" data-market="ID"><div class="specimen-label"><span data-i18n="indonesia">Indonesia</span><span>IDR</span></div><p class="market-price" lang="id-ID">Rp 699.000</p></article>
+        <article class="market" data-market="VN"><div class="specimen-label"><span data-i18n="vietnam">Vietnam</span><span>VND</span></div><p class="market-price" lang="vi-VN">699.000 ₫</p></article>
+        <article class="market" data-market="PH"><div class="specimen-label"><span data-i18n="philippines">Philippines</span><span>PHP</span></div><p class="market-price" lang="en-PH">₱699.00</p></article>
+        <article class="market" data-market="TH"><div class="specimen-label"><span data-i18n="thailand">Thailand</span><span>THB</span></div><p class="market-price" lang="th-TH">฿699.00</p></article>
+      </div>
+      <p class="price-note" data-i18n="priceNote">Illustrative amounts, shown in local formats.</p>
+    </section>
+    <section class="download-section" id="download" aria-labelledby="download-title">
+      <div class="wrap download-inner">
+        <div><span class="eyebrow" data-i18n="downloadLabel">TAKE IT FROM HERE</span><h2 id="download-title" data-i18n="downloadTitle">Your next words,<br>in Sentosa Sans.</h2></div>
+        <div class="download-action"><p data-i18n="downloadIntro">Free to use, embed and modify under the Open Font License. No subscription required.</p><a class="download-button" id="download-font" href="downloads/SentosaSans-v0.5.1.zip" download="SentosaSans-v0.5.1.zip"><span data-i18n="downloadButton">Download Sentosa Sans</span><span aria-hidden="true">↓</span></a><p class="download-meta">v0.5.1 <span aria-hidden="true">·</span> Regular + Bold <span aria-hidden="true">·</span> TTF + WOFF2</p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer wrap">
+    <div class="footer-top"><a class="wordmark" href="#">Sentosa Sans<span class="brand-dot" aria-hidden="true"></span></a><p data-i18n="footerLine">A shared voice. Room to be yourself.</p></div>
+    <div class="footer-bottom"><p><span data-i18n="creditsLead">Based on</span> <a href="https://github.com/bettergui/BeVietnamPro" rel="noreferrer">Be Vietnam Pro</a> <span data-i18n="creditsAnd">and</span> <a href="https://github.com/notofonts/thai" rel="noreferrer">Noto Sans Thai</a>.<br><span data-i18n="creditsLicense">Released under</span> <a href="https://openfontlicense.org/" rel="noreferrer">SIL Open Font License 1.1</a>.</p><a class="back-top" href="#"><span data-i18n="backTop">Back to top</span><span aria-hidden="true">↑</span></a></div>
+  </footer>
+</body>
+</html>

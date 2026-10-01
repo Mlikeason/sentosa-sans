@@ -1,0 +1,64 @@
+{
+  "family": "Sentosa Sans",
+  "version": "0.5.1",
+  "site_url": "https://mlikeason.github.io/sentosa-sans/",
+  "static_site": true,
+  "assets": {
+    "app.js": {
+      "bytes": 9820,
+      "sha256": "ae5e4bb0fc99c9974d7338452f11282a67925ef61f02db140efa962c720237e9"
+    },
+    "downloads/SentosaSans-v0.5.1.zip": {
+      "bytes": 211154,
+      "sha256": "7bb3f1249299906f0513b3613220b264245608a414c4d98c6820fe3ff66d1111"
+    },
+    "favicon.svg": {
+      "bytes": 254,
+      "sha256": "378fd90388faf61e4cbbe10967fa0b415c266fa631db5cf43a9fcf2826a8f1e0"
+    },
+    "fonts/sentosa-sans/CREDITS.md": {
+      "bytes": 1254,
+      "sha256": "420b6351096e521cd7d8e0cfaf88be2773bfd6a1e1045a33050b1b385caa1e13"
+    },
+    "fonts/sentosa-sans/OFL-NotoSansThai.txt": {
+      "bytes": 4380,
+      "sha256": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0"
+    },
+    "fonts/sentosa-sans/OFL.txt": {
+      "bytes": 4397,
+      "sha256": "6b7f8f73609a25ea78c891e34cf37b06f8a676b7ea986e941e43b009110f2a85"
+    },
+    "fonts/sentosa-sans/README.md": {
+      "bytes": 2432,
+      "sha256": "8831aae47fb91dfee5b3bd6e9cadd1d370e928968149dd66b50adae781411228"
+    },
+    "fonts/sentosa-sans/fonts.css": {
+      "bytes": 799,
+      "sha256": "8904d5395d581e6d7ab4c0758916eacb95ea908adbfd17f6a2a7391f3a710947"
+    },
+    "fonts/sentosa-sans/ttf/SentosaSans-Bold.ttf": {
+      "bytes": 196636,
+      "sha256": "a18741e1daf67b0aec0ca0c6303d3727e856be718d987c4e9fac076fd46dae78"
+    },
+    "fonts/sentosa-sans/ttf/SentosaSans-Regular.ttf": {
+      "bytes": 182704,
+      "sha256": "6deb70973978f845ddbb1551634d220f0a14857ca1e65d5f53b6623f3a13f166"
+    },
+    "fonts/sentosa-sans/woff2/SentosaSans-Bold.woff2": {
+      "bytes": 45504,
+      "sha256": "e193af869f221c017b3b94e9433aa8b7bf7745b91684d1a9ad21a9b6bd2e6316"
+    },
+    "fonts/sentosa-sans/woff2/SentosaSans-Regular.woff2": {
+      "bytes": 41196,
+      "sha256": "c091a81bc6e6932c7a39b1a4c983cc6244045ecfe20dc72c66957bc4b32c7cdd"
+    },
+    "index.html": {
+      "bytes": 13049,
+      "sha256": "31540a0484fa2f4f86f82d6144113ca2455d524b3be448aa24dccd9c079b3458"
+    },
+    "styles.css": {
+      "bytes": 15699,
+      "sha256": "8336f6dc98882b68758d9b4db1b09ff67303319d0e62122434bf6989bf06001b"
+    }
+  }
+}

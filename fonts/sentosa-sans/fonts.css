@@ -1,0 +1,19 @@
+/* Sentosa Sans 0.5.1 / SIL Open Font License 1.1 */
+@font-face {
+  font-family: 'Sentosa Sans';
+  src: url('./woff2/SentosaSans-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sentosa Sans';
+  src: url('./woff2/SentosaSans-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+.sentosa-sans { font-family: 'Sentosa Sans', sans-serif; font-synthesis: none; }
+.sentosa-sans-price { font-family: 'Sentosa Sans', sans-serif; font-feature-settings: 'ss01' 1; font-synthesis: none; }
+.sentosa-sans-tabular { font-variant-numeric: tabular-nums; }
+.sentosa-sans-identifiers { font-family: 'Sentosa Sans', sans-serif; font-feature-settings: 'ss02' 1, 'zero' 1; font-synthesis: none; }
